@@ -1,5 +1,6 @@
-# Hola! #
+# ¡Hola! #
 ![imagen de un gráfico](./gráfico.png)
+<p style="text-align:center; font-style: italic;">Gráfico de los 3 ciclos.</p>
 
 ## Pregunta ##
 *6. Escribir las 2 principales dificultades que tuvo y 2 cosas que haya aprendido realizando 
