@@ -2,6 +2,9 @@
 ![imagen de un gráfico](./src/gráfico.png)
 <p style="text-align:center; font-style: italic;">Gráfico de los 3 ciclos.</p>
 
+![imagen de un gráfico de polinomios interpoladores](./src/gráfico2.png)
+<p style="text-align:center; font-style: italic;">Gráfico de los 3 ciclos con su respectivo polinomio interpolador.</p>
+
 ## Pregunta ##
 *6. Escribir las 2 principales dificultades que tuvo y 2 cosas que haya aprendido realizando 
 el TP (este punto debe realizarlo en forma individual).*

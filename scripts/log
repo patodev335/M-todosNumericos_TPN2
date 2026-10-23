@@ -7,3 +7,23 @@ Changes to be committed:
 
 
 Upload complete!
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   scripts/commit+push.sh
+	modified:   scripts/log
+
+
+Upload complete!
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+	modified:   main.py
+	modified:   scripts/log
+	new file:   "src/gr\303\241fico2.png"
+
