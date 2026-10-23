@@ -27,3 +27,15 @@ Changes to be committed:
 	modified:   scripts/log
 	new file:   "src/gr\303\241fico2.png"
 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+	modified:   main.py
+	modified:   scripts/log
+	new file:   "src/gr\303\241fico2.png"
+
+
+Upload complete!
