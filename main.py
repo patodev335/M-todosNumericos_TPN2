@@ -158,6 +158,11 @@ def crearSplines(X, Y):
 def auxiliar(x: int):  # lit, solamente devuelvo el valor paralelo a X en la lista Y
     return Y[x]
 
+def chequearCiclo(int_prom: float):
+    if(int_prom > 0.2 and int_prom < 0.5):
+        print("\t\t>> Ciclo normal.")
+    else:
+        print("\t\t>> Integral fuera de rango. Ciclo anormal.")
 
 ##########################################
 # 1 hecho
@@ -181,14 +186,14 @@ if __name__ == "__main__":
     coef3 = Polinomio_Coeficientes(X[176:250], Y[176:250])
 
     #2
-    graficar(X, Y)
+    #graficar(X, Y)
 
     #3
-    graficar2(coef1, coef2, coef3)
+    #graficar2(coef1, coef2, coef3)
 
     #4
     (sp1, sp2, sp3) = crearSplines(X, Y)
-    graficar3(sp1, sp2, sp3)
+    #graficar3(sp1, sp2, sp3)
 
     # 5
     # primer datos originales
@@ -206,6 +211,9 @@ if __name__ == "__main__":
 
     int_prom = (int1+int2+int3)/3
     print(f"\t>> 5.1.2 El promedio de la integral de splines fue     {int_prom}")
+    chequearCiclo(int1)
+    chequearCiclo(int2)
+    chequearCiclo(int3)
 
     int1 = integrar_simpson(X[7:95], Y[7:95])
     int2 = integrar_simpson(X[94:177], Y[94:177])
@@ -213,6 +221,9 @@ if __name__ == "__main__":
 
     int_prom = (int1+int2+int3)/3
     print(f"\t>> 5.2.1 El promedio de la integral de los 3 ciclos fue {int_prom}")
+    chequearCiclo(int1)
+    chequearCiclo(int2)
+    chequearCiclo(int3)
 
     # para el 5.2.2 uso los valores originales + splines, creo
     x_ = np.linspace(7, 94, 4*(94-7)+1)
@@ -226,3 +237,6 @@ if __name__ == "__main__":
 
     int_prom = (int1+int2+int3)/3
     print(f"\t>> 5.2.2 El promedio de la integral de los 3 ciclos fue {int_prom}")
+    chequearCiclo(int1)
+    chequearCiclo(int2)
+    chequearCiclo(int3)
