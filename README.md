@@ -1,5 +1,5 @@
-# ¡Hola! #
-![imagen de un gráfico](./gráfico.png)
+# ***¡Hola!*** #
+![imagen de un gráfico](./src/gráfico.png)
 <p style="text-align:center; font-style: italic;">Gráfico de los 3 ciclos.</p>
 
 ## Pregunta ##
